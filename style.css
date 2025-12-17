@@ -1,0 +1,145 @@
+/* Add this to your existing style.css file */
+.output-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.output-box h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .output-box {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px dashed #7f8c8d;
+            background-color: #ecf0f1;
+        }
+
+
+        /* NEW STYLES FOR ELIGIBILITY CHECKER */
+/* Ai assist */
+.check-eligibility {
+    background-color: #f0f7ff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.check-eligibility h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.eligibility-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.check-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.check-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.check-btn:active {
+    transform: translateY(0);
+}
+
+.result-message {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    display: none;
+}
+
+.result-message.eligible {
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #c3e6cb;
+}
+
+.gpa-indicator {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.required {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .check-eligibility {
+        padding: 15px;
+    }
+    
+    .eligibility-form {
+        padding: 0 10px;
+    }
+}
